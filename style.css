@@ -1,0 +1,118 @@
+body {
+  background-image: url(picture/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+  letter-spacing: 3px;
+  margin: 0;
+  color: #f8f8f6; /* Change font color to white */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container > * {
+  background-color: rgba(0, 0, 0, 0.8); /* Add semi-transparent black background */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container img:first-of-type {
+  display: block;
+  margin: 0 auto;
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Display image in a circle */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Libre Caslon Text", serif;;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff4e6;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px; /* Add letter spacing */
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 0.5px solid #acc7dc;
+  color: #fff4e6;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px; /* Add letter spacing */
+}
+
+a {
+  color: #ccc; /* Change link color to light gray */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #be9b7b;
+}
+
+.automobile {
+  width: 175px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  margin-bottom: -40px;
+  margin-inline: 20px;
+}
+
+
+.section {
+  border: 1px solid dimgrey;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Add semi-transparent black background */
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #ccc; /* Change heading color to light gray */
+  margin-bottom: 10px;
+  letter-spacing: 1px; /* Add letter spacing */
+}
+
+.section p {
+  color: #ccc; /* Change paragraph color to light gray */
+  margin-bottom: 10px;
+}
+
+.section img {
+  max-width: 100%;
+  display: flex;
+}
+
+.section ul {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center-align the items */
+}
+
+.section ul li {
+  margin-right: 10px; /* Add some spacing between the icons */
+}
+
+.section ul li:last-child {
+  margin-right: 4; /* Remove margin from the last item to prevent extra space */
+}
+
+.section ul li i {
+  font-size: 24px; /* Adjust the size of the icons */
+}
+
